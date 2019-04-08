@@ -9,8 +9,42 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
 ```
 
 ## Team Members
+#### 4/4/19
 
 Sunny Mahesh, Eliana Marostica, and Maria Nakhoul
+
+## Data Set
+#### 4/11/19
+
+```{r load}
+setwd("../")
+iddr <- read_csv("data/Impaired_Driving_Death_Rate__by_Age_and_Gender__2012___2014__All_States.csv")
+ocdr <- read_csv("data/Motor_Vehicle_Occupant_Death_Rate__by_Age_and_Gender__2012___2014__All_States.csv")
+sebt <- read_csv("data/Percentage_of_Drivers_and_Front_Seat_Passengers_Wearing_Seat_Belts__2012___2014__All_States.csv")
+```
+
+#### Impaired Driving Death Rates by Age and Gender (2012 & 2014)
+
+```{r}
+iddr %>%
+  summary()
+```
+
+```{r}
+ocdr %>%
+  summary()
+```
+
+```{r}
+sebt %>%
+  summary()
+```
+
+## Visualization Tasks and Requirements
+#### 4/18/19
+
+

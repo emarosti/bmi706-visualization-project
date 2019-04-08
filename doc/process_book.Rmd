@@ -43,6 +43,9 @@ ocdr %>%
   summary()
 ```
 
+
+There are two time points for the OCDR data 2012 and 2014. There are 2 main attributes sex and age. There are 52 elements (50 states, DC, and USA as a whole). All of the data is numeric data, where the values are the number of deaths for that specific category.
+
 #### Percentage of Drivers and Front Seat PAssengers Wearing Seat Belts
 
 ```{r}

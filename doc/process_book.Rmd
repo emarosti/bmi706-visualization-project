@@ -20,6 +20,8 @@ Sunny Mahesh, Eliana Marostica, and Maria Nakhoul
 ## Data Set
 #### 4/11/19
 
+We will be using 3 data sets freely available online from the CDC
+
 ```{r load}
 setwd("../")
 iddr <- read_csv("data/Impaired_Driving_Death_Rate__by_Age_and_Gender__2012___2014__All_States.csv")
@@ -34,10 +36,14 @@ iddr %>%
   summary()
 ```
 
+#### Motor Vehicle Occupant Death Rates by Age and Gender (2012 & 2014)
+
 ```{r}
 ocdr %>%
   summary()
 ```
+
+#### Percentage of Drivers and Front Seat PAssengers Wearing Seat Belts
 
 ```{r}
 sebt %>%

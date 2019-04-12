@@ -32,10 +32,19 @@ sebt <- read_csv("data/Percentage_of_Drivers_and_Front_Seat_Passengers_Wearing_S
 
 #### Impaired Driving Death Rates by Age and Gender (2012 & 2014)
 
+Summarize the variables, data types (temporal, networks, multivariate matrices, etc.),
+and key statistics (# of elements, # of attributes, # of timepoints, etc.) of your data set.
+
+The key variables here are state, location (of the state), age group (all,0-20, 21-34, 35+), year (2012,2014), sex, and death rate. The data type here is numeric - these are death rates. There are two timepoints: 2012 and 2014. These death rates are available for each of the 50 states plus Washington D.C. and the United Sates as a whole.
+
+
 ```{r}
 iddr %>%
   summary()
 ```
+
+
+
 
 #### Motor Vehicle Occupant Death Rates by Age and Gender (2012 & 2014)
 

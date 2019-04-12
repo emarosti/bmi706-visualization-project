@@ -1,8 +1,9 @@
 ---
 title: "Process Book"
-author: "Sunny Mahesh"
-author: "Eliana Marostica"
-author: "Maria Nakhoul"
+author:
+ - "Sunny Mahesh"
+ - "Eliana Marostica"
+ - "Maria Nakhoul"
 date: "4/8/2019"
 output: html_document
 ---

@@ -41,8 +41,6 @@ iddr %>%
 ```
 
 
-
-
 #### Motor Vehicle Occupant Death Rates by Age and Gender (2012 & 2014)
 
 ```{r}
